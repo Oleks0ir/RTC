@@ -81,6 +81,8 @@ void loop()
       Serial.println(" AM");
     if (RTC.getMeridiem() == HOUR_PM)
       Serial.println(" PM");     
+  } else{
+    Serial.println(""); 
   }
   delay(1000);
 }
